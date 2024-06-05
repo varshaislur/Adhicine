@@ -1,13 +1,22 @@
-
 import 'package:flutter/material.dart';
 
 class CustomTextField extends StatefulWidget {
   final IconData icon;
-  IconData? suffixIcon;
-  final bool isobscure;
+  final IconData? suffixIcon;
+  final bool isObscure;
   final String name;
-  TextEditingController controller=TextEditingController();
-  CustomTextField({super.key,required this.icon,required this.controller,this.suffixIcon,required this.isobscure,required this.name});
+  final TextEditingController controller;
+  final String? Function(String?)? validator; // Added validator
+
+  CustomTextField({
+    super.key,
+    required this.icon,
+    required this.controller,
+    this.suffixIcon,
+    required this.isObscure,
+    required this.name,
+    this.validator,
+  });
 
   @override
   State<CustomTextField> createState() => _CustomTextFieldState();
@@ -16,19 +25,22 @@ class CustomTextField extends StatefulWidget {
 class _CustomTextFieldState extends State<CustomTextField> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: TextField(
-
-          decoration: InputDecoration(
-            icon: Icon(widget.icon,color: Colors.cyan,),
-            hintText: "${widget.name}"
-          
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: TextFormField(
+        decoration: InputDecoration(
+          icon: Icon(
+            widget.icon,
+            color: Colors.cyan,
           ),
-          controller: widget.controller,
-          obscureText: widget.isobscure,
+          hintText: widget.name,
+          suffixIcon: widget.suffixIcon != null
+              ? Icon(widget.suffixIcon)
+              : null,
         ),
+        controller: widget.controller,
+        obscureText: widget.isObscure,
+        validator: widget.validator,
       ),
     );
   }
