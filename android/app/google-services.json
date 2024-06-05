@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531660112900",
+    "project_id": "umlaassignmentapp",
+    "storage_bucket": "umlaassignmentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531660112900:android:7c4f65463aeaf5fd52e151",
+        "android_client_info": {
+          "package_name": "com.example.umla_assignment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9dib4eu1m7iibicAEnMps9hh3CK6A9wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
