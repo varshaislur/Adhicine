@@ -1,16 +1,8 @@
-# umla_assignment_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2024-06-05 182742](https://github.com/varshaislur/Adhicine/assets/143340791/c5d13b35-2012-4b2d-98f8-9577272957a6)
+![Screenshot 2024-06-05 182722](https://github.com/varshaislur/Adhicine/assets/143340791/44645f21-1921-47e6-be19-d99d6f5f11d6)
+![Screenshot 2024-06-05 182838](https://github.com/varshaislur/Adhicine/assets/143340791/10a59963-e020-4fbe-8be7-73084ba8a4fe)
+![Screenshot 2024-06-05 182817](https://github.com/varshaislur/Adhicine/assets/143340791/ed114450-bd54-4551-9f91-026b6839903d)
+![Screenshot 2024-06-05 182754](https://github.com/varshaislur/Adhicine/assets/143340791/9cb3185f-db3a-4f11-925b-f61efb8a132a)
+![Screenshot 2024-06-05 184322](https://github.com/varshaislur/Adhicine/assets/143340791/08a191e3-4d83-4589-9a18-8a5ba7a37b51)
+![Screenshot 2024-06-05 205812](https://github.com/varshaislur/Adhicine/assets/143340791/4da13b64-5e0b-473a-9531-2129cef34ed4)
+![Screenshot 2024-06-05 184417](https://github.com/varshaislur/Adhicine/assets/143340791/cb306d7c-a2ff-46cb-94b3-07bbf5bf6138)
